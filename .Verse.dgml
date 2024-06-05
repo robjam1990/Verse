@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Ad" Bounds="-99.5328949991862,-2.3860410473633,50,25.96" UseManualLocation="True" />
+    <Node Id="Con" Bounds="154.781666666667,26.48,50,25.96" UseManualLocation="True" />
+    <Node Id="In" Bounds="-17.1364583333333,-64.42,50,25.96" UseManualLocation="True" />
+    <Node Id="Re" Bounds="-136.786575317383,-58.3461410473633,50,25.96" UseManualLocation="True" />
+    <Node Id="Sub" Bounds="9.49754333496094,109.534158952637,50,25.96" UseManualLocation="True" />
+    <Node Id="Tra" Bounds="100.213424682617,-57.99,50,25.96" UseManualLocation="True" />
+    <Node Id="Uni" Bounds="-40.5731506347656,53.5740589526367,50,25.96" UseManualLocation="True" />
+    <Node Id="Uni-verse" Bounds="7.03043794631958,-2.3860410473633,50,25.96" Label="Verse" />
+  </Nodes>
+  <Links>
+    <Link Source="Uni-verse" Target="Ad" Bounds="-40.5328960418701,10.5939583631537,47.5633337497711,4.25661697889268E-07" />
+    <Link Source="Uni-verse" Target="Con" Bounds="57.030437707901,15.478188555417,88.9182197368021,17.3718829349934" />
+    <Link Source="Uni-verse" Target="In" Bounds="16.1872433630435,-30.0739062986467,10.7865073159767,27.6878644380663" />
+    <Link Source="Uni-verse" Target="Re" Bounds="-78.3991493044306,-32.3748857248323,85.4295870123316,33.2411873034577" />
+    <Link Source="Uni-verse" Target="Sub" Bounds="32.316561495686,23.5739581394196,1.69651531826733,76.9623840142219" />
+    <Link Source="Uni-verse" Target="Tra" Bounds="53.7827590610033,-27.4182033367641,41.9497396450459,25.0321614761837" />
+    <Link Source="Uni-verse" Target="Uni" Bounds="1.30005181728051,23.5739581394196,19.6886861881469,23.1449100780104" />
+  </Links>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+</DirectedGraph>
